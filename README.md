@@ -9,6 +9,8 @@
 
 #### Bass Lib Vertion: 2.4
 
+#### 快速上手
+
 要使用播放器，先创建 `BassPlayer` 实例。
 ``` Dart
 var bassPlayer = BassPlayer();
