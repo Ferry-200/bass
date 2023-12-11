@@ -1,0 +1,30 @@
+name: bass
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  ffi: ^2.1.0
+  file_picker: ^6.1.1
+  flutter:
+    sdk: flutter
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  ffigen: ^9.0.1
+
+flutter:
+  uses-material-design: true
+
+ffigen:
+  output: 'bass.dart'
+  headers:
+    entry-points:
+      - 'bass_win\c\bass.h'
+  name: 'Bass'
