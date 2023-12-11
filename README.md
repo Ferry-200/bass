@@ -1,15 +1,15 @@
 # BassPlayer
 对 Bass 音频库的简单包装，方便在Dart & Flutter (Windows) 上使用基本的Bass Lib API。
 
-#### 项目结构
+### 项目结构
 - lib
   - bass_player.dart (以 Bass Lib 为基础的简单的Player实现)
   - bass.dart ( `ffigen` 生成的文件)
   - main.dart (测试应用)
 
-#### Bass Lib Vertion: 2.4
+### Bass Lib Vertion: 2.4
 
-#### 快速上手
+### 快速上手
 
 要使用播放器，先创建 `BassPlayer` 实例。
 ``` Dart
